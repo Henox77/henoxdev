@@ -9,11 +9,9 @@ Bu proje, Next.js, TypeScript, Tailwind CSS, DaisyUI ve Framer Motion kullanıla
 - **Responsive**: Tüm cihazlarda şık görünüm
 - **DaisyUI ile kartlar ve butonlar**
 - **Framer Motion ile animasyonlar**
-- **Spotify tarzı müzik çalar barı**: Kapak, şarkı adı, sanatçı, oynat/duraklat, ses kontrolü
 - **Sosyal medya ikonları**
 - **Hakkımda ve Hizmetlerim bölümleri**
 - **Kullandığım teknolojiler (ikonlarla)**
-- **R10 profil kartı**: Modern, temayla uyumlu, doğrudan profil linki
 
 
 ## Kurulum
