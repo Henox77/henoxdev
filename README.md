@@ -1,4 +1,4 @@
-# Henoxdev Kişisel Portföy Sitesi
+# henoxdev
 
 Bu proje, Next.js, TypeScript, Tailwind CSS, DaisyUI ve Framer Motion kullanılarak hazırlanmış modern, sade ve tamamen responsive bir kişisel portföy sitesidir.
 
@@ -15,15 +15,12 @@ Bu proje, Next.js, TypeScript, Tailwind CSS, DaisyUI ve Framer Motion kullanıla
 - **Kullandığım teknolojiler (ikonlarla)**
 - **R10 profil kartı**: Modern, temayla uyumlu, doğrudan profil linki
 
-## Ekran Görüntüsü
-
-![Ekran Görüntüsü](./screenshot.png)
 
 ## Kurulum
 
 1. **Projeyi klonlayın:**
    ```bash
-   git clone https://github.com/kullaniciadiniz/portfoy-projesi.git
+   git clone https://github.com/Henox77/henoxdev.git
    cd portfoy-projesi
    ```
 2. **Bağımlılıkları yükleyin:**
