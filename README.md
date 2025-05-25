@@ -19,7 +19,7 @@ Bu proje, Next.js, TypeScript, Tailwind CSS, DaisyUI ve Framer Motion kullanıla
 1. **Projeyi klonlayın:**
    ```bash
    git clone https://github.com/Henox77/henoxdev.git
-   cd portfoy-projesi
+   cd henoxdev
    ```
 2. **Bağımlılıkları yükleyin:**
    ```bash
@@ -34,7 +34,7 @@ Bu proje, Next.js, TypeScript, Tailwind CSS, DaisyUI ve Framer Motion kullanıla
    yarn dev
    ```
 4. **Siteye göz atın:**
-   - [http://localhost:3000](http://localhost:3000)
+   - [(https://henoxdev.netlify.app)](https://henoxdev.netlify.app/)
 
 ## Özelleştirme
 - `app/page.tsx` dosyasındaki içerikleri ve sosyal medya/R10 linklerini kendinize göre güncelleyebilirsiniz.
