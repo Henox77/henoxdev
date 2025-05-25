@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState, useRef } from 'react'
-import { FaInstagram, FaTiktok, FaYoutube, FaEnvelope, FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaPhp, FaDatabase, FaPlay, FaPause, FaVolumeUp, FaVolumeMute } from 'react-icons/fa'
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiPostgresql, SiDocker, SiMysql } from 'react-icons/si'
+import { FaInstagram, FaTiktok, FaYoutube, FaEnvelope, FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJs, FaPhp, FaDatabase, FaPlay, FaPause, FaVolumeUp, FaVolumeMute } from 'react-icons/fa'
+import { SiTypescript, SiTailwindcss, SiPostgresql, SiMysql } from 'react-icons/si'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
