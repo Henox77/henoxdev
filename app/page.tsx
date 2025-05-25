@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react'
 import { FaInstagram, FaTiktok, FaYoutube, FaEnvelope, FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJs, FaPhp, FaDatabase, FaPlay, FaPause, FaVolumeUp, FaVolumeMute } from 'react-icons/fa'
-import { SiTypescript, SiTailwindcss, SiPostgresql, SiMysql } from 'react-icons/si'
+import { SiTypescript, SiTailwindcss, SiMysql } from 'react-icons/si'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -14,7 +14,6 @@ const technologies = [
   { name: 'JavaScript', icon: <FaJs className="text-yellow-300 text-5xl" /> },
   { name: 'Node.js', icon: <FaNodeJs className="text-green-400 text-5xl" /> },
   { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-300 text-5xl" /> },
-  { name: 'PostgreSQL', icon: <SiPostgresql className="text-blue-400 text-5xl" /> },
   { name: 'MySQL', icon: <SiMysql className="text-blue-300 text-5xl" /> },
   { name: 'Python', icon: <FaPython className="text-yellow-400 text-5xl" /> },
   { name: 'PHP', icon: <FaPhp className="text-indigo-300 text-5xl" /> },
