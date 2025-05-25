@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react'
 import { FaInstagram, FaTiktok, FaYoutube, FaEnvelope, FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaPhp, FaDatabase, FaPlay, FaPause, FaVolumeUp, FaVolumeMute } from 'react-icons/fa'
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiPostgresql, SiDocker, SiMysql } from 'react-icons/si'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const technologies = [
   { name: 'HTML5', icon: <FaHtml5 className="text-orange-500 text-5xl" /> },
@@ -22,7 +23,7 @@ const technologies = [
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
-  visible: (i = 0) => ({ opacity: 1, y: 0, transition: { duration: 0.4, delay: 0, ease: 'easeOut' } }),
+  visible: () => ({ opacity: 1, y: 0, transition: { duration: 0.4, delay: 0, ease: 'easeOut' } }),
 }
 const fadeIn = {
   hidden: { opacity: 0 },
@@ -86,7 +87,7 @@ function AudioPlayer() {
 
   return (
     <div className="w-full max-w-2xl mx-auto flex items-center gap-4 bg-gradient-to-r from-black via-[#2d0036] to-[#7c3aed] border border-violet-900 rounded-2xl px-4 py-3 shadow-lg mt-4 mb-8 backdrop-blur-md">
-      <img src={cover} alt="Kapak" className="w-14 h-14 rounded-lg object-cover shadow-md border border-violet-800" />
+      <Image src={cover} alt="Kapak" width={56} height={56} className="rounded-lg object-cover shadow-md border border-violet-800" />
       <div className="flex-1 min-w-0">
         <div className="flex flex-col">
           <span className="font-semibold text-white truncate">{title}</span>
@@ -153,10 +154,12 @@ export default function Home() {
             variants={fadeInUp}
             className="flex flex-col items-center"
           >
-            <img
-              src="x.png"
+            <Image
+              src="/x.png"
               alt="Profil Fotoğrafı"
-              className="w-36 h-36 rounded-full border-4 border-violet-700 shadow-lg mb-6 object-cover"
+              width={144}
+              height={144}
+              className="rounded-full border-4 border-violet-700 shadow-lg mb-6 object-cover"
             />
             <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight text-center drop-shadow-lg leading-tight">
               @henoxdev
