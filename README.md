@@ -37,7 +37,7 @@ Bu proje, Next.js, TypeScript, Tailwind CSS, DaisyUI ve Framer Motion kullanıla
    - [(https://henoxdev.netlify.app)](https://henoxdev.netlify.app/)
 
 ## Özelleştirme
-- `app/page.tsx` dosyasındaki içerikleri ve sosyal medya/R10 linklerini kendinize göre güncelleyebilirsiniz.
+- `app/page.tsx` dosyasındaki içerikleri ve sosyal medya linklerini kendinize göre güncelleyebilirsiniz.
 - `public/cover.jpg` ve `public/lovetheme.mp3` dosyalarını değiştirerek müzik çaları kişiselleştirebilirsiniz.
 - Profil fotoğrafınızı `public/x.png` olarak ekleyin.
 
